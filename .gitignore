@@ -1,0 +1,5 @@
+node_modules
+node_modules/*
+.tag*
+test/qr.html
+test/qr.svg
