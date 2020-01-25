@@ -1,6 +1,6 @@
 {
 	"name": "qr.util",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Create QR codes",
 	"keywords": [
 		"console",
