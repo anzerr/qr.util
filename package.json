@@ -1,17 +1,29 @@
 {
 	"name": "qr.util",
 	"version": "1.0.2",
-	"description": "",
+	"description": "Create QR codes",
+	"keywords": [
+		"console",
+		"node",
+		"qr",
+		"svg",
+		"util"
+	],
+	"homepage": "https://github.com/anzerr/qr.util#readme",
+	"bugs": {
+		"url": "https://github.com/anzerr/qr.util/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:anzerr/qr.util.git"
+	},
+	"license": "MIT",
+	"author": "anzerr",
 	"main": "index.js",
+	"types": "index.d.ts",
 	"scripts": {
 		"linter": "eslint src/*",
 		"test": "npm run linter && node test"
-	},
-	"keywords": [],
-	"author": "anzerr",
-	"license": "MIT",
-	"devDependencies": {
-		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
 	},
 	"eslintConfig": {
 		"extends": "eslint-config-basic"
@@ -20,16 +32,10 @@
 		"clone.util": "git+https://git@github.com/anzerr/clone.util.git",
 		"console.color": "git+https://github.com/anzerr/console.color.git"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:anzerr/qr.util.git"
+	"devDependencies": {
+		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
 	},
 	"engines": {
 		"node": ">= 0.10.0"
-	},
-	"types": "index.d.ts",
-	"bugs": {
-		"url": "https://github.com/anzerr/qr.util/issues"
-	},
-	"homepage": "https://github.com/anzerr/qr.util#readme"
+	}
 }
